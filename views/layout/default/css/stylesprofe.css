@@ -1,0 +1,206 @@
+/* Lista de estilos Generales*/
+
+article{
+    width: 70%;
+}
+aside{
+    width: 30%;
+}
+article, aside{
+    float: left;
+}
+header{
+    background-color:black;
+    /* margin: 50px; */
+}
+ .barra{
+    /* width: 100%; */
+    background-color: black;
+    display: block center;
+}
+#banner img {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    background-color: black;
+}
+body {
+    background-color: #f8f7fd;
+    
+}
+footer { 
+    width: 100%;
+    height: 350px;
+    background-color: rgb(65, 65, 65);
+    color:white;
+    display:inline-block;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 3.8rem;
+}
+h2{
+    font-size: 32px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 3rem;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    background-color: black;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+div div nav a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+}
+
+div div nav :hover{
+    color: slategray;
+    background-color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* padding: 5px; */
+    /* display:block; */
+} 
+
+/* estilo id */
+#parrafo2{
+    text-align: justify;
+    color: rgb(34, 7, 95);
+}
+
+/* Estilo clase */
+.texto1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:maroon;
+}
+.contenedor{
+    width: 90%;
+    /* max-width: 120rem; * = 1200px; * */
+    margin: 0 auto;
+    display: grid;
+}
+.col-footer{
+    display: inline-block;
+    width: 20%;
+}
+.col-footer-max{
+    width: 59%;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+/* .footer{
+    margin: 10px;
+    padding: 10px;
+}  */
+/* .nav{
+    margin: 10px;
+    padding: 10px;
+}  */
+
+.grid-barra {
+    display: block;
+    /* grid-gap: 10px; */
+    margin-top: 20px;
+    /* padding: 15px; */
+    background-color: black;
+    /* align-items: center; */
+    place-items: center;
+}
+.grid-footer {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    padding: 15px;
+    background-color: rgb(65, 65, 65);
+}
+
+
+
+footer ul li {
+    background-color: rgb(65, 65, 65);;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    display:block;
+}
+   /* footer ul li a:hover{
+    color: slategray;
+    background-color: #5e074f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    display:block;
+} */
+
+/** utilidades **/
+.seccion { 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.iconos-nosotros {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.iconos-nosotros div {
+    border: 1px solid rgb(83, 83, 83);
+    text-align:center;
+}
+
+.iconos-nosotros div p{
+    margin-bottom: 30px;
+    text-align: justify;
+    padding: 15px;
+}
+
+.iconos { 
+    margin:20px;
+}
+.redes{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.redes ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.redes ul li a{
+    display: block;
+    padding: 0 10px;
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0 rgb(0,0,0 .2);
+    transition: .2s;
+}
+.redes ul:hover a{
+    filter: blur(2px);
+}
+.redes ul li a:hover{
+    transform: translateY(-3px) scale(1.05 );
+    box-shadow: 0 5px 5px 0 rgb(0,0,0 .4);
+    filter: none;
+}

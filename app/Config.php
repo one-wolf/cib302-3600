@@ -1,6 +1,6 @@
 <?php
 #archivo de configuraciones basicas
-define('BASE_URL','http://localhost/cib302-3600/');
+define('BASE_URL','http://localhost/crr/');
 define('DEFAULT_CONTROLLER','index');
 define('DEFAULT_LAYOUT','default');
 
